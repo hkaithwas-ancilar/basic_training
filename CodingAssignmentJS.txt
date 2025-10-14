@@ -19,19 +19,28 @@ function secondLargest(array) {
 // Problem 2: Complete the calculateFrequency function that takes lowercase string as input and returns frequency of all english alphabet. (using only array, no in-built function)
 
 function calculateFrequency(string) {
-    let freq = new Array(26); 
-    for (let i = 0; i < 26; i++) {
-        freq[i] = 0;
-    }
+    let freq = new Array(26).fill(0);
 
     for (let i = 0; i < string.length; i++) {
-        let xyz = string.charCodeAt(i);
-        if (xyz >= 97 && xyz <= 122) { 
-            freq[xyz - 97] += 1;
+        let charCode = string.charCodeAt(i);
+
+        if (charCode >= 65 && charCode <= 90) {
+            charCode = charCode + 32;
+        }
+
+        if (charCode >= 97 && charCode <= 122) {
+            freq[charCode - 97] += 1;
         }
     }
 
-    return freq;
+    let frequencyObject = {};
+    for (let i = 0; i < 26; i++) {
+        if (freq[i] > 0) {
+            frequencyObject[String.fromCharCode(i + 97)] = freq[i];
+        }
+    }
+
+    return frequencyObject;
 }
 
 
@@ -51,7 +60,7 @@ const flattenObject = (obj) => {
         }
     }
     return result;
-}; 
+};
 const obj = {
     A: "12",
     B: 23,
@@ -68,7 +77,7 @@ const obj = {
 console.log(flatten(obj));
 
 
-// Problem 4: Complete the unflatten function that takes a JS Object, returns a JS Object in unflatten format  let unflattenObject = (data) => {
+// Problem 4: Complete the unflatten function that takes a JS Object, returns a JS Object in unflatten formatlet unflattenObject = (data) => {
     let result = {};
     for (let i in data) {
       let keys = i.split(".");
