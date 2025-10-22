@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.player {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.strickout {
+    background-color: blue;
+    color: white;
+}
