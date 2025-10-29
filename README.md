@@ -1,1 +1,1 @@
-Basic Training Solution Submissions
+Solutions to Advance JS Day 1 solutions
