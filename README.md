@@ -7,7 +7,7 @@ Each assignment is placed in its **own branch**.
 - Shell assignment  
 - Git basic assignment 1  
 - Git basic assignment 2  
-- JavaScript (JS) assignment  
+- JavaScript assignment  
 - Web assignment
 - Advance JS Day 1 assignment
 - Advance JS Day 2 assignment
