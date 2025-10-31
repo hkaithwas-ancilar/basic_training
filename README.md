@@ -12,9 +12,10 @@ Each assignment is placed in its **own branch**.
 - Advance JS Day 1 assignment
 - Advance JS Day 2 assignment
 - Advance JS Day 3 assignment
-- Advance JS Day 4 assignment  
+- Advance JS Day 4 assignment
+- Database assignment
 
-**Total assignments: 9**
+**Total assignments: 10**
 
 ---
 
