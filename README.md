@@ -7,7 +7,7 @@ It includes **schema**, **sample data**, **queries** and an **ER diagram**.
 - **schema.sql**  
 - **seed_data.sql**  
 - **queries.sql**  
-- **ER_diagram.png / ER_diagram.pdf**    
+- **ER_diagram.png**    
 - **README.md**
 
 ## Setup Instructions (How to run)
