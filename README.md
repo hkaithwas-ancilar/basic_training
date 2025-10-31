@@ -8,9 +8,13 @@ Each assignment is placed in its **own branch**.
 - Git basic assignment 1  
 - Git basic assignment 2  
 - JavaScript (JS) assignment  
-- Web assignment  
+- Web assignment
+- Advance JS Day 1 assignment
+- Advance JS Day 2 assignment
+- Advance JS Day 3 assignment
+- Advance JS Day 4 assignment  
 
-**Total assignments: 5**
+**Total assignments: 9**
 
 ---
 
